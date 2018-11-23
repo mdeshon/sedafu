@@ -1,13 +1,13 @@
 # sedafu
 A security analytics framework. Data Fusion for Security.
+by Markus De Shon
 
 ## Introduction
-by Markus De Shon
 
 sedafu is a framework and a proof-of-concept implementation
 of a "Multisensor Data Fusion" approach to security
 analytics. This approach grew out of my experience with
-security analysis since 2000, attempts to define what
+security analysis since 2000, and attempts to define what
 automated analysis would look like, and attempts to
 implement automated analysis.
 
@@ -17,7 +17,8 @@ we are operating on:
 * [Data](1%20Data/README.md): Collection of raw data (e.g.
 network packets)
 * [Features](2%20Features/README.md): Semantically meaningful
-elements in the data (e.g. IP addresses)
+elements in (e.g. IP addresses) or aggregates of
+(e.g. time series or graphs) the data 
 * [Entities](3%20Entities/README.md): The subjects of analysis
 (e.g. hosts)
 * [Relations](4%20Relations/README.md): How the entities
